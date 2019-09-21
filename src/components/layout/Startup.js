@@ -19,16 +19,16 @@ function Startup() {
             </section>
             <section className="section section2">
                 <div className="item1">
-                    <h3 className="item">Follow your interests.</h3>
+                    <h3 className="item center">Follow your interests.</h3>
                 </div>
                 <div className="item2">
-                    <h3 className="item">Hear what people are talking about.</h3>
+                    <h3 className="item center">Hear what people are talking about.</h3>
                 </div>
                 <div className="item3">
-                    <h3 className="item">Join the conversation.</h3>
+                    <h3 className="item center">Join the conversation.</h3>
                 </div>
             </section>
-            <footer></footer>
+            <footer className="footer"></footer>
         </div>          
     );  
   }
