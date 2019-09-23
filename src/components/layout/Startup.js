@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react';
+import { Link } from 'react-router-dom';
+import './Startup.scss';
 import Button from '@material-ui/core/Button';
 import TextField from '@material-ui/core/TextField';
 
@@ -16,6 +18,7 @@ function Startup() {
                 <h4 className="">Join Twitter today.</h4>
                 <button className="button button-sign-up">Sign up</button>
                 <button className="button button-log-in">Log in</button>
+                <Link to="/login" className="">Login</Link>
             </section>
             <section className="section section2">
                 <div className="item1">

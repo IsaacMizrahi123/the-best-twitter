@@ -1,0 +1,28 @@
+.standar{
+    margin:20px 2px;
+}
+.reset{
+    padding:0;
+    margin:0;
+}
+.back{
+    margin: 0;
+    padding: 0;
+    background-color: #e6ecf0;
+    height: 100vh;
+    width: 100vw;
+    .card{
+        background-color: rgb(255, 255, 255);
+        height: 400px;
+        width: 600px;
+        .part1{
+
+        }
+        .footer{
+            background-color: rgb(177, 231, 227);
+            .p1{
+                display: flex;
+            }
+        }
+    }    
+}
